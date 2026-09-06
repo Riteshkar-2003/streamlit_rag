@@ -1,8 +1,7 @@
 import os
 import tempfile
-
-import streamlit as st
 from dotenv import load_dotenv
+import streamlit as st
 
 from langchain_groq import ChatGroq
 from langchain_chroma import Chroma
