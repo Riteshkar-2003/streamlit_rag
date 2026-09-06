@@ -287,7 +287,7 @@ st.write(
 
 with st.sidebar:
 
-    st.header("📄 Upload PDF")
+    st.header("Upload PDF")
 
 
     uploaded_file = st.file_uploader(
@@ -365,7 +365,7 @@ with st.sidebar:
 if st.session_state.retriever is None:
 
     st.info(
-        "👈 Please upload a PDF from the sidebar to start chatting."
+        "Please upload a PDF from the sidebar to start chatting."
     )
 
     st.stop()
